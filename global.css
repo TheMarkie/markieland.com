@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    background-color: rgb(0, 11.5, 23);
+    color: rgb(230, 230, 230);
+    font-size: 23px;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+main {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.38;
+}
+
+body {
+    margin: auto;
+    width: 690px;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(138, 138, 230);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(207, 207, 230);
+}
+
+.nav-bar {
+    display: flex;
+}
+.nav-bar-link {
+    margin: 23px 46px 0px 0px;
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+}
+.nav-bar-link:hover {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+}
